@@ -6,4 +6,8 @@ import { Component } from '@angular/core';
   styleUrl: './top-bar-component.scss',
   templateUrl: './top-bar-component.html',
 })
-export class TopBarComponent {}
+export class TopBarComponent {
+
+  phoneNumber : string = '931585294'
+  whatssapNumber: string = '925192810'
+}
